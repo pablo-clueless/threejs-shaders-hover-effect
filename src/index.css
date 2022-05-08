@@ -18,7 +18,7 @@
 }
 
 body {
-    background: var(--dark);
+    background: var(--primary);
     color: var(--light);
     font-family: var(--font);
     overflow: hidden;
@@ -46,7 +46,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px dashed var(--light);
+    border-bottom: 2px dashed var(--dark);
     padding-bottom: 0.5rem;
 }
 
@@ -71,7 +71,7 @@ body {
 .item-footer {
     display: flex;
     align-items: center;
-    border-top: 1px dashed var(--light);
+    border-top: 2px dashed var(--dark);
     padding-top: 0.5rem;
 }
 

@@ -9,7 +9,7 @@ const App = () => {
   useEffect(() => {
       var image_animate = new hoverEffect({
           parent: document.querySelector('.item-image'),
-          intensity: 0.5,
+          intensity: 0.3,
           image1: image,
           image2: image2,
           displacementImage: overlay
@@ -17,7 +17,7 @@ const App = () => {
   })
 
   return (
-  <div className='App'>
+  <div className='app'>
       <div className='container'>
           <div className='item'>
               <div className='item-header'>
@@ -25,7 +25,7 @@ const App = () => {
                       #endsars
                   </div>
                   <div className='item-header-heading2'>
-                      20/10/20
+                    october 2020
                   </div>
               </div>
               <div className='item-image'></div>
